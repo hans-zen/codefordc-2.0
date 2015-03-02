@@ -5,9 +5,7 @@ rvm:
 
 script:
 - bundle exec jekyll build
-- htmlproof ./_site
-
-install: gem install html-proofer
+- bundle exec htmlproof ./_site
 
 env:
   global:

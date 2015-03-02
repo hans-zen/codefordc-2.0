@@ -9,3 +9,4 @@ gems:
 collections:
     resources:
         output: true
+exclude: [vendor]
